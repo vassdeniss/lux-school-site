@@ -13,6 +13,10 @@ body {
             animation: fadein 5s;
 }
 
+.blur {
+    backdrop-filter: blur(100px);
+}
+
 .navbar {
     background: none;
 }
@@ -69,7 +73,7 @@ body {
     left: 0;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 710px;
     width: 100%;
 }
 
