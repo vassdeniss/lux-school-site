@@ -5,3 +5,11 @@ function openModal() {
 function closeModal() {
     $("#albumModal").modal("hide");
 }
+
+function openModalProduct() {
+    $("#productModal").modal("show");
+}
+
+function closeModalProduct() {
+    $("#productModal").modal("hide");
+}
