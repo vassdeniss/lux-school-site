@@ -26,6 +26,18 @@ body {
     background-color:#FFECBA;
 }
 
+.customB {
+    color: #FFECBA;
+    background-color:#9C519E;
+}
+
+.customB:hover {
+    text-decoration: none;
+    color: #9C519E;
+    background-color: transparent;
+    border: 3px solid #9C519E;
+}
+
 .customA:hover {
     text-decoration: none;
     color: #FFECBA;
@@ -87,4 +99,10 @@ body {
     text-align: left;
     outline: none;
     font-size: 15px;
+}
+
+.customCard {
+    color: #9C519E;
+    background-color: #FFECBA;
+    border: 7px solid #9C519E;
 }
