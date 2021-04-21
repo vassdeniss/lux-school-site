@@ -10,11 +10,31 @@
         <link rel="shortcut icon" type="images/png" href="images/logo.png"> 
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div>
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item"> 
-                        <a href="index.html" class="navbar-left"><img src="images/logo.png" height="150px"></a>
+                        <a href="index.html"><img src="images/logo.png" height="150px"></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#target" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="target" class="collapse navbar-collapse ml-5">
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item">
+                        <a class="btn btn-lg customA" href="menu.html"> Menu </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item">
+                        <a class="btn btn-lg customA" href="about.html"> About Us </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item">
+                        <a class="btn btn-lg customA" href="location.html"> Information </a>
                     </li>
                 </ul>
             </div>
@@ -22,11 +42,6 @@
         <div class="container-fluid" style="margin: 10px 10px 10px 10px;"> 
             <h1 style="color: #FFECBA; font-size: 100px;"><b> Lux <br> Ice Cream </b></h1>
             <h2 style="margin-top: 30px; margin-bottom: 30px; color: #FFECBA;"> We only use the finest ingridients <br> avaliable from the most exotic <br> spots in the world. </h2>
-            <a style="font-size: 30px; margin-bottom: 10px;" class="btn btn-lg customA" href="menu.html" role="button">Look at our menu</a>
-            <br>
-            <a style="font-size: 30px; margin-bottom: 10px;" class="btn btn-lg customA" href="about.html" role="button">About Us</a>
-            <br>
-            <a style="font-size: 30px;" class="btn btn-lg customA" href="location.html" role="button">Information</a>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
